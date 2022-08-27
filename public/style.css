@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.666;
+  background: #c0d2d4;
+  color: #555;
+}
+
+h1 {
+  margin: auto auto;
+  /* width: 40%; */
+  font-weight: 500;
+  font-size: 5.5rem;
+  text-align: center;
+  margin-top: 4rem;
+  color: #fff;
+  line-height: 1.2;
+  
+}
+h1 span {
+  background-color: #2ec2b0;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 3% 2%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.card {
+  height: 350px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.emoji {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.emoji-name {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2ec2b0;
+}
+
+.description {
+  width: 90%;
+  margin: 10px 7px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.description p {
+  text-align: center;
+  margin-left: 15px;
+  
+}
+
+footer{
+  text-align: center;
+  color: #555;
+  font-weight: 400;
+}
